@@ -27,7 +27,11 @@
     // if variablename starts with a number after the dollar sign it is invalid  
     $price = 45;
     // $4hash = 453453; invalid variable...
-    echo "can i buy $price";
+    echo "can i buy $price <br>";
+    echo "haha {$price} <br>";
+    //echo 'haha {$price}'; //this doesnt work
+    echo 'haha'. $price; // this will work concatenation for single qoutes
+    echo "haha". $price; // this will work also you have to use your own preferences
     ?>
 </body>
 </html>
