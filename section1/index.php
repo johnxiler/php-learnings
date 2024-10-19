@@ -6,6 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hi welcome to PHP learnings!!!</h1>
+    <?php
+    // phpinfo(); 
+    $name = "relix";
+    echo "Hello ", $name; //echo is for more strings
+    print "\nprint "."this"; // print is for one string it returns one string only unless concatenate strings
+    //single line comment
+    /*
+    multiline comments
+    */
+    ?>
 </body>
 </html>
